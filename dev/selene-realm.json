@@ -1,0 +1,22 @@
+{
+  "realm": "selene",
+  "enabled": true,
+  "displayName": "Selene",
+  "loginTheme": "selene",
+  "resetPasswordAllowed": true,
+  "clients": [
+    {
+      "clientId": "theme-preview",
+      "name": "Theme preview",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "redirectUris": [
+        "http://localhost:8080/*"
+      ],
+      "webOrigins": [
+        "http://localhost:8080"
+      ]
+    }
+  ]
+}
