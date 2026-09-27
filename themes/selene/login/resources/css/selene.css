@@ -85,15 +85,15 @@
 }
 
 /* PatternFly paints the password row's input-group behind its transparent input. */
-#kc-form-login .pf-c-input-group,
-#kc-form-login .pf-v5-c-input-group {
+.login-pf-page .pf-c-input-group,
+.login-pf-page .pf-v5-c-input-group {
   --pf-c-input-group--BackgroundColor: rgba(9, 9, 11, 0.7);
   --pf-v5-c-input-group--BackgroundColor: rgba(9, 9, 11, 0.7);
   background-color: rgba(9, 9, 11, 0.7);
 }
 
-#kc-form-login .pf-c-input-group .pf-c-form-control,
-#kc-form-login .pf-v5-c-input-group .pf-v5-c-form-control {
+.login-pf-page .pf-c-input-group .pf-c-form-control,
+.login-pf-page .pf-v5-c-input-group .pf-v5-c-form-control {
   background: rgba(9, 9, 11, 0.7);
 }
 
