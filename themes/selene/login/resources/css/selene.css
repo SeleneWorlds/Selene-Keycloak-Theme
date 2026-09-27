@@ -1,0 +1,90 @@
+:root {
+  --selene-primary: #fb7185;
+  --selene-primary-light: #fda4af;
+  --selene-primary-soft: rgba(251, 113, 133, 0.16);
+  --selene-neutral-50: #fafafa;
+  --selene-neutral-200: #e4e4e7;
+  --selene-neutral-300: #d4d4d8;
+  --selene-neutral-400: #a1a1aa;
+  --selene-neutral-700: #3f3f46;
+  --selene-neutral-800: #27272a;
+  --selene-neutral-900: #18181b;
+  --selene-neutral-950: #09090b;
+  color-scheme: dark;
+}
+
+.login-pf body {
+  color: var(--selene-neutral-200);
+  background:
+    radial-gradient(circle at 50% 24%, rgba(251, 113, 133, 0.21), transparent 34rem),
+    radial-gradient(circle at 82% 88%, rgba(251, 113, 133, 0.07), transparent 25rem),
+    var(--selene-neutral-950);
+}
+
+#kc-header-wrapper {
+  color: var(--selene-neutral-50);
+  font-size: 0;
+}
+
+#kc-header-wrapper::before {
+  display: block;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 12px;
+  content: "";
+  background: url("../img/selene-mark.svg") center / contain no-repeat;
+}
+
+#kc-header-wrapper::after {
+  content: "Selene";
+  font-size: 22px;
+}
+
+.login-pf-page .card-pf {
+  border-color: rgba(212, 212, 216, 0.16);
+  background: rgba(24, 24, 27, 0.88);
+  color: var(--selene-neutral-200);
+}
+
+#kc-page-title,
+.login-pf-page .card-pf h1,
+.login-pf-page .card-pf label {
+  color: var(--selene-neutral-50);
+}
+
+.login-pf-page a,
+.login-pf-page a:hover {
+  color: var(--selene-primary-light);
+}
+
+.pf-c-form-control,
+.form-control {
+  border-color: var(--selene-neutral-700);
+  background: rgba(9, 9, 11, 0.7);
+  color: var(--selene-neutral-50);
+}
+
+.pf-c-form-control:focus,
+.form-control:focus {
+  border-color: var(--selene-primary);
+  box-shadow: 0 0 0 3px var(--selene-primary-soft);
+}
+
+.pf-c-button.pf-m-primary,
+.btn-primary {
+  border-color: var(--selene-primary);
+  background: var(--selene-primary);
+  color: #27080d;
+}
+
+.pf-c-button.pf-m-primary:hover,
+.btn-primary:hover {
+  border-color: var(--selene-primary-light);
+  background: var(--selene-primary-light);
+  color: #27080d;
+}
+
+#kc-info-wrapper {
+  background: transparent;
+  color: var(--selene-neutral-400);
+}
